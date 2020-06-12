@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "PorterStemmer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"string",
+		"start",
+		"end"
+	],
+	"name" : "PorterStemmer",
+	"type" : "normal"
+}

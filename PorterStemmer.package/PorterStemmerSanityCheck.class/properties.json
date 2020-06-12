@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "PorterStemmer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fVoc",
+		"fRef"
+	],
+	"name" : "PorterStemmerSanityCheck",
+	"type" : "normal"
+}
