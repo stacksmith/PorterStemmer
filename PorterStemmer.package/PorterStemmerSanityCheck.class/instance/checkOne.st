@@ -4,7 +4,7 @@ checkOne
 	fVoc atEnd and:[^false].
 	voc := fVoc upTo: Character lf.
 	ref := (fRef upTo: Character lf) asUppercase.
-	stem := (PorterStemmer on: voc)stem.
+	stem := (stemmer string: voc)stem.
 	stem=ref ifFalse: [{ voc. ref. stem. stem=ref. } asdd.].
 	
 	^true

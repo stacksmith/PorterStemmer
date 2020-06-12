@@ -4,5 +4,6 @@ initialize
 		asFileReference readStream.
 	fRef := '/home/stack/Documents/Library/Speech and Language Processing/Porter Stemmer/output.txt'
 		asFileReference readStream.
+	stemmer := PorterStemmer new.
 		
 		

@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"fVoc",
-		"fRef"
+		"fRef",
+		"stemmer"
 	],
 	"name" : "PorterStemmerSanityCheck",
 	"type" : "normal"
